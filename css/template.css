@@ -1,0 +1,134 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+.container{width: 1200px; margin: 0 auto; position: relative;}
+.one{width:80px;}
+.two{width:180px;}
+.three{width:280px;}
+.four{width:380px;}
+.five{width:480px;}
+.six{width:580px;}
+.seven{width:680px;}
+.eight{width:780px;}
+.nine{width:880px;}
+.ten{width:980px;}
+.eleven{width:1080px;}
+.twelve{width:1180px;}
+.one-third{width: 380px}
+.two-third{width: 780px}
+.one-half{width: 580px;}
+/* General */
+.column{float: left; position: relative;margin: 5px 10px;}
+.clear{clear: both}
+.w100{width: 100%}
+.demo-back{background: #e5e5e5; text-align: center; padding: 5px 0}
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+	.container{width: 960px; margin: 0 auto; position: relative;}
+	.one{width:60px;}
+	.two{width:140px;}
+	.three{width:220px;}
+	.four{width:300px;}
+	.five{width:380px;}
+	.six{width:460px;}
+	.seven{width:540px;}
+	.eight{width:620px;}
+	.nine{width:700px;}
+	.ten{width:780px;}
+	.eleven{width:860px;}
+	.twelve{width:940px;}	
+	.one-third{width: 300px}
+	.two-third{width: 620px}
+	.one-half{width: 460px;}
+}
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+	.container{width: 768px; margin: 0 auto; position: relative;}
+	.one{width:44px;}
+	.two{width:108px;}
+	.three{width:172px;}
+	.four{width:236px;}
+	.five{width:300px;}
+	.six{width:364px;}
+	.seven{width:428px;}
+	.eight{width:492px;}
+	.nine{width:556px;}
+	.ten{width:620px;}
+	.eleven{width:684px;}
+	.twelve{width:748px;}	
+	.one-third{width: 236px}
+	.two-third{width: 492px}
+	.one-half{width: 360px;}
+}
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+	.container{width: 420px; margin: 0 auto; position: relative;}
+	.one{width:400px;}
+	.two{width:400px;}
+	.three{width:400px;}
+	.four{width:400px;}
+	.five{width:400px;}
+	.six{width:400px;}
+	.seven{width:400px;}
+	.eight{width:400px;}
+	.nine{width:400px;}
+	.ten{width:400px;}
+	.eleven{width:400px;}
+	.twelve{width:400px;}	
+	.one-third{width: 400px}
+	.two-third{width: 400px}
+	.one-half{width: 400px}
+}
+@media only screen and (min-width: 376px) and (max-width: 420px) {
+	.container{width: 370px; margin: 0 auto; position: relative;}
+	.one{width:370px;}
+	.two{width:370px;}
+	.three{width:370px;}
+	.four{width:370px;}
+	.five{width:370px;}
+	.six{width:370px;}
+	.seven{width:370px;}
+	.eight{width:370px;}
+	.nine{width:370px;}
+	.ten{width:370px;}
+	.eleven{width:370px;}
+	.twelve{width:370px;}	
+	.one-third{width: 370px}
+	.two-third{width: 370px}
+	.one-half{width: 370px;}
+	.column{margin: 10px 0}
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+	.container{width: 320px; margin: 0 auto; position: relative;}
+	.one{width:320px;}
+	.two{width:320px;}
+	.three{width:320px;}
+	.four{width:320px;}
+	.five{width:320px;}
+	.six{width:320px;}
+	.seven{width:320px;}
+	.eight{width:320px;}
+	.nine{width:320px;}
+	.ten{width:320px;}
+	.eleven{width:320px;}
+	.twelve{width:320px;}	
+	.one-third{width: 320px}
+	.two-third{width: 300px}
+	.one-half{width: 320px;}
+	.column{margin: 10px 0}
+}
+@media only screen and (max-width: 320px) {
+	.container{width: 300px; margin: 0 auto; position: relative;}
+	.one{width:300px;}
+	.two{width:300px;}
+	.three{width:300px;}
+	.four{width:300px;}
+	.five{width:300px;}
+	.six{width:300px;}
+	.seven{width:300px;}
+	.eight{width:300px;}
+	.nine{width:300px;}
+	.ten{width:300px;}
+	.eleven{width:300px;}
+	.twelve{width:300px;}	
+	.one-third{width: 300px}
+	.two-third{width: 300px}
+	.one-half{width: 300px;}
+	.column{margin: 10px 0}
+}

@@ -1,0 +1,58 @@
+body{font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px}
+video#bgvid { position: fixed;top: 50%;left: 50%;min-width: 100%;min-height: 100%;width: auto;height: auto;z-index: -100;-ms-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);transform: translateX(-50%) translateY(-50%);background: url(polina.jpg) no-repeat;background-size: cover; }
+#registro{margin: 50px auto;padding: 18px 20px;width: 250px;background: #65a9df;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.tac{text-align: center}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], textarea.inputbox {height: auto;border-radius: 0;box-shadow: none;transition: none;background: #ffffff;border: 1px solid #cccccc;color: #333333;}
+.inputtext{width: 100%;height: 25px !important;margin-top: 5px}
+.blanco{color: #fff;}
+strong{font-weight: bold}
+.botoniniciar{background: #4181b3;color: #fff !important;border: none;width: 101%;margin-top: 20px;height: 30px;cursor: pointer;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.botoniniciar:hover{background: #5677fc}
+.botonregistrar{background: #4181b3;color: #fff !important;border: none;width: 101%;margin-top: 20px;height: 30px;cursor: pointer;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.botonregistrar:hover{background: #259b24}
+a.blanco{text-decoration:none; margin:3px 0; display: block}
+header{height: 125px; background: #30a3d9; opacity: 0.9; display: block; float: left;}
+.interior{background: url(../images/BackWeb-08-02.png)}
+footer{width: 100%; height: 100px; background: #fff; float: left;}
+#top{    background: #00a8e6; padding: 10px 20px; display: block; float: right; color: #fff}
+#top:hover{opacity: 0.8}
+#content{padding: 30px 0; float: left; width: 100%;}
+#containerhome{background: #94D5F1}
+#menu{background: #00ADEF;padding: 5px 0}
+#menu ul li{float: left; margin:0 5px;}
+#menu a{color: #fff; text-decoration:none; font-size: 13px}
+.backblanco{background: #fff}
+.p5{padding: 5px}
+.sugerencias{font-weight: bold;background: #fff;color: #424242; text-align: center}
+.nombresugerencia a{color: #000000;text-decoration: none;font-weight: bold; font-size: 14px;margin-top: 10px;display: block;}
+.sugerencia{margin:10px 0;}
+.iconossugerencia li{color: #7f8c8d}
+.avatarsugerencia{float: left;}
+.avatarsugerencia img{border:1px solid #7f8c8d; padding: 3px; width: 40px}
+.contenidosugerencia{float: left; margin-left: 5px}
+.iconossugerencia li{float: left; margin:10px 5px;}
+/* mediaqueries */
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+
+}
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+
+}
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+    .hidemobile{display: none}
+}
+@media only screen and (min-width: 376px) and (max-width: 420px) {
+    .hidemobile{display: none}
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .hidemobile{display: none}
+}
+@media only screen and (max-width: 320px) {
+    .hidemobile{display: none}
+}
+
+
+
+
+
+
