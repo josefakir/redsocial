@@ -1,23 +1,29 @@
 -- phpMyAdmin SQL Dump
--- version 4.4.10
+-- version 4.5.0.2
 -- http://www.phpmyadmin.net
 --
--- Servidor: localhost:3306
--- Tiempo de generación: 03-06-2016 a las 01:33:55
--- Versión del servidor: 5.5.42
--- Versión de PHP: 5.6.10
+-- Host: 127.0.0.1
+-- Generation Time: Jun 06, 2016 at 01:44 AM
+-- Server version: 5.6.27
+-- PHP Version: 5.6.17
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
 --
--- Base de datos: `ygiis`
+-- Database: `ygiisnuevo`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `usuarios`
+-- Table structure for table `usuarios`
 --
 
 CREATE TABLE `usuarios` (
@@ -29,33 +35,38 @@ CREATE TABLE `usuarios` (
   `genero` char(1) DEFAULT NULL,
   `fecha_nacimiento` date DEFAULT NULL,
   `about` text,
-  `fecha_registro` datetime NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=58 DEFAULT CHARSET=latin1;
+  `fecha_registro` datetime NOT NULL,
+  `token` varchar(255) NOT NULL,
+  `status` char(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `usuarios`
+-- Dumping data for table `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nombres`, `apellidos`, `correo`, `contrasena`, `genero`, `fecha_nacimiento`, `about`, `fecha_registro`) VALUES
-(56, 'José Antonio', 'Becerra Romero', 'jbecerraromero@gmail.com', '5140106451340684a8beddcfae8ccb37', 'h', '1984-05-28', 'fuck you', '2016-06-02 00:00:00');
+INSERT INTO `usuarios` (`id`, `nombres`, `apellidos`, `correo`, `contrasena`, `genero`, `fecha_nacimiento`, `about`, `fecha_registro`, `token`, `status`) VALUES
+(91, 'JOSÉ ANTONIO', 'BECERRA ROMERO', 'jose_fakir@hotmail.com', '5140106451340684a8beddcfae8ccb37', 'H', '1950-01-01', NULL, '2016-06-05 00:00:00', 'OXUya2ZtbXVwcD80Ym94ITRwbXM=', '1');
 
 --
--- Índices para tablas volcadas
+-- Indexes for dumped tables
 --
 
 --
--- Indices de la tabla `usuarios`
+-- Indexes for table `usuarios`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `correo` (`correo`);
 
 --
--- AUTO_INCREMENT de las tablas volcadas
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT de la tabla `usuarios`
+-- AUTO_INCREMENT for table `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=58;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=93;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

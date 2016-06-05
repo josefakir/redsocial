@@ -20,19 +20,22 @@
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<div id="registro">
-				<form action="">
+				<form action="api/?m=login" method="post">
 					<p class="tac blanco"><strong>Usuario</strong></p>
-					<p><input type="text" class="inputtext"></p>
+					<p><input type="text" class="inputtext" name="usuario"></p>
 					<p>&nbsp;</p>
 					<p class="tac blanco"><strong>Contraseña</strong></p>
-					<p><input type="password" class="inputtext"></p>
+					<p><input type="password" class="inputtext" name="pass"></p>
 					<p><input type="submit" class="botoniniciar" value="Iniciar Sesión"></p>
-					<p><input type="submit" class="botonregistrar" value="¡Regístrate!"></p>
+					<p><a href="registrar.php" class="botonregistrar">¡Regístrate!</a></p>
 					<p>&nbsp;</p>
 					<p class="blanco"><input type="checkbox">Recordarme</p>
 					<p><a href="" class="blanco">¿Olvidaste tu usuario?</a></p>
 					<p><a href="" class="blanco">¿Olvidaste tu clave?</a></p>
 					<p><a href="" class="blanco">Enviar código de activción</a></p>
+					<div class="mensaje">
+						<p><?php echo base64_decode($_GET['m']) ?></p>
+					</div>
 				</form>
 			</div>
 		</div>
