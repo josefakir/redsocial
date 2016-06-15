@@ -16,5 +16,20 @@
 		case 'login':
 			include("login.php");
 		break;
+		case 'publicar':
+			include("publicar.php");
+		break;
+		case 'timeline':
+			include("timeline.php");
+		break;
+		case 'perfil':
+			include("perfil.php");
+		break;
+		case 'subirArchivo':
+			include("subirArchivo.php");
+		break;
+		case 'crearAlbum':
+			include("crearAlbum.php");
+		break;
 	}
 ?>

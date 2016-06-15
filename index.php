@@ -20,7 +20,7 @@
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<div id="registro">
-				<form action="api/?m=login" method="post">
+				<form action="procesar/login.php" method="post">
 					<p class="tac blanco"><strong>Usuario</strong></p>
 					<p><input type="text" class="inputtext" name="usuario"></p>
 					<p>&nbsp;</p>
@@ -34,7 +34,7 @@
 					<p><a href="" class="blanco">¿Olvidaste tu clave?</a></p>
 					<p><a href="" class="blanco">Enviar código de activción</a></p>
 					<div class="mensaje">
-						<p><?php echo base64_decode($_GET['m']) ?></p>
+						<p><?php if(isset($_GET['m'])){echo base64_decode($_GET['m']); } ?></p>
 					</div>
 				</form>
 			</div>
